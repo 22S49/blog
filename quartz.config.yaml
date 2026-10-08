@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Perpetual Beta
+  pageTitle: 🐛Perpetual Beta
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -159,6 +159,8 @@ plugins:
     enabled: true
   - source: "@quartz-community/explorer"
     enabled: true
+    options:
+      title: ""
     layout:
       position: left
       priority: 50
