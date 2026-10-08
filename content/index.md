@@ -1,1 +1,3 @@
-테스트
+---
+title: Perpetual Beta
+---
