@@ -1,3 +1,25 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+@font-face {
+  font-family: "D2Coding";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    local("D2Coding"),
+    url("https://cdn.jsdelivr.net/gh/joungkyun/font-d2coding/D2Coding.woff2") format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/joungkyun/font-d2coding/D2Coding.woff") format("woff");
+}
+
+@font-face {
+  font-family: "D2Coding";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:
+    local("D2Coding Bold"),
+    url("https://cdn.jsdelivr.net/gh/joungkyun/font-d2coding/D2CodingBold.woff2") format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/joungkyun/font-d2coding/D2CodingBold.woff") format("woff");
+}
