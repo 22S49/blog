@@ -1,4 +1,4 @@
-# 🐛Perpetual Beta
+# 🌴Perpetual Beta
 
 🔗 https://eeseuju.github.io/blog
 
