@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: 22S49.github.io/blog
+  baseUrl: eeseuju.github.io/blog
   ignorePatterns:
     - private
     - templates
