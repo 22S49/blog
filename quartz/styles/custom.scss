@@ -23,3 +23,8 @@
     url("https://cdn.jsdelivr.net/gh/joungkyun/font-d2coding/D2CodingBold.woff2") format("woff2"),
     url("https://cdn.jsdelivr.net/gh/joungkyun/font-d2coding/D2CodingBold.woff") format("woff");
 }
+
+// 홈 화면은 제목 없이 비워 둔다 (탭 제목은 frontmatter의 title 사용)
+body[data-slug="index"] .article-title {
+  display: none;
+}
